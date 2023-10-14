@@ -1,0 +1,98 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: "calendar.png" no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+.class_checkbox {
+    height: 20px;
+    content: "checkbox.png"
+}
+
+.class_checkbox.checked {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/img/mers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.leftside {}
+
+.leftside__heading {
+    font-size: 30px;
+}
+
+.leftside__subheading {
+    font-size: 20px;
+}
+
+.leftside__list {
+    list-style: url("/img/Ok.png");
+}
+
+.list__item {}
+
+.list__item-img {}
+
+.list__item-text {
+    transform: translate(0, -6px);
+}
+
+.rightside {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(0, 117, 0, 0.6);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.rightside__form {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.rightside__heading {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.checkbox__list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.date__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__begin {}
+
+.form__end {}
+
+.form__subheading {
+    font-size: 18px;
+}
+
+.form__checkbox {}
+
+.btn {}
