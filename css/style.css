@@ -1,11 +1,60 @@
+/*
 input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
     opacity: 1;
     display: block;
-    background: "calendar.png" no-repeat;
+    content: none;
+    comment
+    background: url("img/calendar.png") no-repeat;
+    comment
+    content: url("img/calendar.png") no-repeat;
     width: 20px;
     height: 20px;
     border-width: thin;
+}
+*/
+/*
+.form__begin::-webkit-calendar-picker-indicator {
+    background-image: url('img/calendar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+  */
+body {
+    margin: 0;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form__begin,
+.form__end {
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+}
+
+.date__list {
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+h3,
+h4,
+h5,
+h6,
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form__begin {
+    border-image: "img/calendar.png" no-repeat;
 }
 
 body {
@@ -30,6 +79,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    align-items: center;
 
 }
 
@@ -37,15 +87,18 @@ body {
 
 .leftside__heading {
     font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .leftside__subheading {
     font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .leftside__list {
     list-style: url("/img/Ok.png");
 }
+/* mybypass2405Alexngl */
 
 .list__item {}
 
@@ -56,22 +109,26 @@ body {
 }
 
 .rightside {
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 260px;
     background-color: rgba(0, 117, 0, 0.6);
     border-radius: 30px;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .rightside__form {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
+    justify-content: space-between;
 }
 
 .rightside__heading {
     font-size: 20px;
     font-weight: 300;
+
 }
 
 .checkbox__list {
@@ -95,4 +152,13 @@ body {
 
 .form__checkbox {}
 
-.btn {}
+.btn {
+    width: 380px;
+    height: 30px;
+    background-color: rgb(47, 154, 47);
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+
+
+}
