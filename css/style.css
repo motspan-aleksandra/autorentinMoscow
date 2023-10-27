@@ -75,7 +75,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    background-image: url("/img/mers.png");
+    background-image: url("../img/mers.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -96,7 +96,7 @@ body {
 }
 
 .leftside__list {
-    list-style: url("/img/Ok.png");
+    list-style: url("../img/Ok.png");
 }
 /* mybypass2405Alexngl */
 
